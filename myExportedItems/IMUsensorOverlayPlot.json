@@ -1,0 +1,49 @@
+{
+  "openmct": {
+    "e8615bae-cfcf-4b70-ba50-d0333247e4f4": {
+      "composition": [
+        {
+          "namespace": "yarpopenmct.telemetry",
+          "key": "sens.imu"
+        },
+        {
+          "namespace": "yarpopenmct.telemetry",
+          "key": "sens.imu"
+        }
+      ],
+      "configuration": {
+        "series": [
+          {
+            "identifier": {
+              "namespace": "yarpopenmct.telemetry",
+              "key": "sens.imu"
+            },
+            "yKey": "value.ori.roll"
+          },
+          {
+            "identifier": {
+              "namespace": "yarpopenmct.telemetry",
+              "key": "sens.imu.two"
+            },
+            "yKey": "value.ori.pitch"
+          }
+        ],
+        "yAxis": {
+          "label": "Roll/Pitch/Yaw"
+        },
+        "xAxis": {}
+      },
+      "name": "IMU Sensor Overlay Plot",
+      "type": "telemetry.plot.overlay",
+      "location": "mine",
+      "modified": 1625196537525,
+      "persisted": 1625196071573,
+      "id": "e8615bae-cfcf-4b70-ba50-d0333247e4f4",
+      "identifier": {
+        "namespace": "",
+        "key": "e8615bae-cfcf-4b70-ba50-d0333247e4f4"
+      }
+    }
+  },
+  "rootId": "e8615bae-cfcf-4b70-ba50-d0333247e4f4"
+}
